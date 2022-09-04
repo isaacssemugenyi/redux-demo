@@ -34,4 +34,4 @@ Step - 3:
     8. Add `method` to fetch products (move fetch method from `App.js` to `product.slice.js`)
     9. Connect the `productSlice` into the `store/index.js` file
     10. Configure the call to fetch `products` from `App.js`
-    11. 
+    11. Display products in `App.js` as before
