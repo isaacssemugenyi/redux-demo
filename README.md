@@ -12,3 +12,13 @@ Step - 1:
     7. Open two terminals in the same project directory
     8. Run `json-server --watch db.json` to start the json server in one terminal
     9. In the second terminal run `npm run start` to start the react application server
+
+Step - 3:
+    1. Create a folder `components`
+    2. Link bootstrap within react in `index.html`
+    3. Create `ProductCard.js` component
+    4. Add all neccessary elements in `ProductCard.js` component
+    5. Create `CartList.js` components
+    6. Add all neccessary dummy elements in `CartList.js` component
+    7. Fetch all `products` from `json-server` in the `App.js` component
+    8. Load the `products` to `ProductCard` component from `App.js` component
