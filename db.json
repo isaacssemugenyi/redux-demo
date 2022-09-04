@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Product 1",
+            "description": "The first product",
+            "inStock": true,
+            "total": 20,
+            "imgLink": "./images/pdt-1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Product 2",
+            "description": "The second product",
+            "inStock": false,
+            "total": 0,
+            "imgLink": "./images/pdt-2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Product 3",
+            "description": "The third product",
+            "inStock": true,
+            "total": 5,
+            "imgLink": "./images/pdt-3.jpg"
+        }
+    ]
+}
