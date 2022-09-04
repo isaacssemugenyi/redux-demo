@@ -23,6 +23,14 @@
             "inStock": true,
             "total": 5,
             "imgLink": "./images/pdt-3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Product 4",
+            "description": "The forth product",
+            "inStock": true,
+            "total": 2,
+            "imgLink": "./images/pdt-4.jpg"
         }
     ]
 }
