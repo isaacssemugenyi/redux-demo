@@ -1,21 +1,17 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import './App.css';
 import CartList from './components/CartList';
 import ProductCard from './components/ProductCard';
+import { fetchProducts } from './store/product.slice';
 
 function App() {
-  const [pdt, setPdt] = useState([]);
+  const dispatch = useDispatch();
+  const pdt = useSelector((state) => state.product.productList);
 
   useEffect(() => {
-    fetchPdtData();
-  }, []);
-
-  // Fetch all products
-  const fetchPdtData = () =>
-    fetch('http://localhost:3000/products')
-      .then((res) => res.json())
-      .then((data) => setPdt(data))
-      .catch((err) => console.error(err));
+    dispatch(fetchProducts());
+  }, [dispatch]);
 
   return (
     <div className="container-fluid bg-light" style={{ height: '100vh' }}>

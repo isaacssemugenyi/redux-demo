@@ -13,7 +13,7 @@ Step - 1:
     8. Run `json-server --watch db.json` to start the json server in one terminal
     9. In the second terminal run `npm run start` to start the react application server
 
-Step - 3:
+Step - 2:
     1. Create a folder `components`
     2. Link bootstrap within react in `index.html`
     3. Create `ProductCard.js` component
@@ -22,3 +22,16 @@ Step - 3:
     6. Add all neccessary dummy elements in `CartList.js` component
     7. Fetch all `products` from `json-server` in the `App.js` component
     8. Load the `products` to `ProductCard` component from `App.js` component
+
+Step - 3:
+    1. Install redux tool kit by running `npm install react-redux @reduxjs/toolkit` in the terminal
+    2. Create a new folder called `store`
+    3. Inside `store` create a file called `index.js`
+    4. Go to your `index.js` file at the root of the project
+    5. Configure the react app to use `redux` from `index.js` in the root directory
+    6. Create a file in your store directory called `product.slice.js` that will keep your state
+    7. Create a `productSlice` with initialState and reducers.
+    8. Add `method` to fetch products (move fetch method from `App.js` to `product.slice.js`)
+    9. Connect the `productSlice` into the `store/index.js` file
+    10. Configure the call to fetch `products` from `App.js`
+    11. 
