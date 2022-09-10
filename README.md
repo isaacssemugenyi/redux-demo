@@ -35,3 +35,11 @@ Step - 3:
     9. Connect the `productSlice` into the `store/index.js` file
     10. Configure the call to fetch `products` from `App.js`
     11. Display products in `App.js` as before
+
+Step - 4:
+    1. dkdkd
+
+Kids wear
+Ladies wear
+men's wear
+interiors(Bedroom stuff (net, duvet, mattress), kitchen wares, furnitures, )

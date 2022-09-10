@@ -6,8 +6,8 @@ function ProductCard({ products }) {
       {products && (
         <div className="row">
           {products.map((product) => (
-            <div className="col-md-4 mt-3 px-2" key={product.id}>
-              <div className="card" style={{ width: 380 }}>
+            <div className="col-md-3 mt-3 px-2" key={product.id}>
+              <div className="card" style={{ width: 280 }}>
                 <img
                   src={product?.imgLink}
                   className="card-img-top Img"
